@@ -12,6 +12,7 @@
   "author": "Scott Macmillan",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "yargs": "^17.5.1"
   }
 }
