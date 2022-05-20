@@ -24,7 +24,6 @@ function makeAPICall(zipcode, apiKey) {
   const req = https.request(httpOptions, res => {
     res.setEncoding('utf8')
     res.on('data', data => {
-      console.log(data)
       outputResults(JSON.parse(data), zipcode)
     });
   })
